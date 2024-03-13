@@ -8,6 +8,10 @@
         <servlet-name>AddProductToCartServlet</servlet-name>
         <servlet-class>controller.customer.cart.AddProductToCartServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ViewListAccountServlet</servlet-name>
+        <servlet-class>controler.ViewListAccountServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ViewCartServlet</servlet-name>
         <url-pattern>/ViewCartServlet</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>AddProductToCartServlet</servlet-name>
         <url-pattern>/AddProductToCartServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ViewListAccountServlet</servlet-name>
+        <url-pattern>/Admin/ViewListAccountServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
