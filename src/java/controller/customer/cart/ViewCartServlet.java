@@ -5,7 +5,7 @@
 
 package controller.customer.cart;
 
-import dao.*;
+import DAO.*;
 import DTO.ShoppingCartDTO;
 import Model.Product;
 import java.io.IOException;

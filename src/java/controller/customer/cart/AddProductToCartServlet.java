@@ -7,7 +7,7 @@ package controller.customer.cart;
 
 import Model.Product;
 import DTO.ShoppingCartDTO;
-import dao.*;
+import DAO.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 import jakarta.servlet.ServletException;

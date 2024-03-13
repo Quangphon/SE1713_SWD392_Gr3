@@ -129,14 +129,14 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="shoping__cart__table">
-                        <c:if test="${tableProduct == null}">
+                        <c:if test="${tableProduct.size() <= 0}">
                             <h3>Please Add Item To Cart</h1></br>
                             <div class="shoping__cart__btns">
                                 <a href="home.jsp" class="primary-btn cart-btn">CONTINUE SHOPPING</a>
                             </div>
                         </c:if>
                             
-                        <c:if test="${tableProduct != null}">
+                        <c:if test="${tableProduct.size() > 0}">
                             <table>
                                 <thead>
                                     <tr>
