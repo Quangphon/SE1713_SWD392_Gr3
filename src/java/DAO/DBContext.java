@@ -30,7 +30,7 @@ public class DBContext {
             String port = "1433";
             String db = "SWD392_gr3";
             String user = "sa";
-            String pass = "sa";           
+            String pass = "123";           
             String url = "jdbc:sqlserver://"+IP+"\\SQLEXPRESS:"+port+";databaseName="+db+"";
             String driver="com.microsoft.sqlserver.jdbc.SQLServerDriver";          
             Class.forName(driver);           
