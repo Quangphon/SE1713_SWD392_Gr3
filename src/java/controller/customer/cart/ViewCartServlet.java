@@ -63,6 +63,11 @@ public class ViewCartServlet extends HttpServlet {
         // Retrieve the shopping cart from the session
         ShoppingCartDTO cart = (ShoppingCartDTO) session.getAttribute("cart");
         
+        String message = request.getParameter("message");
+        if(message != null){
+            request.setAttribute("message", message);
+        }
+        
         if(cart == null){
             //Seed data to test cart
 //            cart = new ShoppingCartDTO();
@@ -105,6 +110,11 @@ public class ViewCartServlet extends HttpServlet {
                 cart.removeItem(product);
                 break;
             case "increase":
+                if(product.getQuantity() == cart.getQuantityByProduct(product)){
+                    String destinationURL = "/SWD392_Gr3/ViewCartServlet?message=The quantity exceeds the number of products in the store"; // Specify the URL of the destination servlet
+                    response.sendRedirect(destinationURL);
+                    return;
+                }
                 cart.increaseQuantity(product);
                 break;
             case "decrease":

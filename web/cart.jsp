@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
     <style>
         .shoping__cart__item{
             img{
@@ -128,7 +129,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="shoping__cart__table">
+                    <div class="shopping__cart__table">
                         <c:if test="${tableProduct.size() <= 0}">
                             <h3>Please Add Item To Cart</h1></br>
                             <div class="shoping__cart__btns">
@@ -303,6 +304,19 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
     
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" ></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+    <script>
+        function activeErrorToast(abc) {
+            toastr.error(abc);
+        }
+        function activeSuccessToast(abc) {
+            toastr.success(abc);
+        }
+        if('${message}' != '') activeErrorToast('${message}');
+    </script>
+    
     <script>
         function removeItem() {
             document.getElementById("formRemoveItem").submit();
@@ -316,6 +330,8 @@
             document.getElementById("formDecreaseQuantity").submit();
         }
     </script>
+    
+    
 
 </body>
 

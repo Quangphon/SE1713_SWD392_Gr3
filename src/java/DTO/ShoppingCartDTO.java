@@ -53,6 +53,10 @@ public class ShoppingCartDTO {
         }
     }
     
+    public int getQuantityByProduct(Product product) {
+        return items.get(product);
+    }
+    
     public Map<Product, Integer> getItems() {
         return items;
     }
