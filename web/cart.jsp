@@ -138,7 +138,7 @@
                         </c:if>
                             
                         <c:if test="${tableProduct.size() > 0}">
-                            <table>
+                            <table style="width: 100%">
                                 <thead>
                                     <tr>
                                         <th class="shoping__product">Products</th>

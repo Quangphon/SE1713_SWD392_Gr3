@@ -74,7 +74,7 @@ quantity int
 INSERT INTO [Role] VALUES ('customer'),('admin'),('sale'),('manager')
 INSERT INTO Account VALUES ('quangphon','123456','quang@gmail.com','0976055102',null,1,'nguyen quang','tq',1)
 INSERT INTO Category VALUES ('tivi'),('tủ lạnh'),('điều hòa'),('laptop')
-INSERT INTO Product VALUES ('tivi panasonic 40 inch', 15000000, 6, 'https://cdn.tgdd.vn/Products/Images/1942/75873/tivi-panasonic-th-40d400v-org-1.jpg','Tivi 40 inch thiết kế đơn giản, hiện đại. Panasonic D400V không quá cầu kỳ trong kiểu dáng, mà chú trọng tính gọn gàng, vững chãi nhưng cũng không kém phần đẹp mắt.Tivi Full HD nét gấp 2 lần HD, cho bạn thế giới hình ảnh chi tiết và sắc sảo. Tivi Panasonic 40D400V có ưu điểm âm thanh to, rõ và độ vang ấn tượng, nhờ đó bạn xem phim, nghe nhạc sẽ vô cùng hấp dẫn.',1)
+INSERT INTO Product VALUES ('tivi panasonic 40 inch', 1000, 6, 'https://cdn.tgdd.vn/Products/Images/1942/75873/tivi-panasonic-th-40d400v-org-1.jpg','Tivi 40 inch thiết kế đơn giản, hiện đại. Panasonic D400V không quá cầu kỳ trong kiểu dáng, mà chú trọng tính gọn gàng, vững chãi nhưng cũng không kém phần đẹp mắt.Tivi Full HD nét gấp 2 lần HD, cho bạn thế giới hình ảnh chi tiết và sắc sảo. Tivi Panasonic 40D400V có ưu điểm âm thanh to, rõ và độ vang ấn tượng, nhờ đó bạn xem phim, nghe nhạc sẽ vô cùng hấp dẫn.',1)
 INSERT INTO Slide VALUES ('Tivi màn hình cong 55 inch','https://cdn11.dienmaycholon.vn/filewebdmclnew/public//userupload/images/top-5-tivi-man-hinh-cong-samsung-an-tuong-2017-2.jpg',null,'https://dienmaycholon.vn/kinh-nghiem-mua-sam/top-5-tivi-man-hinh-cong-samsung-an-tuong-2017')
 INSERT INTO [Order] VALUES ('20120618 10:34:09 AM',null,null,'test order',1)
 INSERT INTO Order_detail VALUES (1,null,1)
