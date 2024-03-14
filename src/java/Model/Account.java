@@ -16,7 +16,7 @@ public class Account {
     private String email;
     private String phone;
     private String image;
-    private String is_active;
+    private boolean is_active;
     private String full_name;
     private String address;
     private String role_name;
@@ -24,7 +24,7 @@ public class Account {
     public Account() {
     }
 
-    public Account(int id, String user_name, String password, String email, String phone, String image, String is_active, String full_name, String address, String role_name) {
+    public Account(int id, String user_name, String password, String email, String phone, String image, boolean is_active, String full_name, String address, String role_name) {
         this.id = id;
         this.user_name = user_name;
         this.password = password;
@@ -37,7 +37,7 @@ public class Account {
         this.role_name = role_name;
     }
 
-    public Account(int id, String user_name, String password, String email, String phone, String is_active, String full_name, String address, String role_name) {
+    public Account(int id, String user_name, String password, String email, String phone, boolean is_active, String full_name, String address, String role_name) {
         this.id = id;
         this.user_name = user_name;
         this.password = password;
@@ -49,7 +49,7 @@ public class Account {
         this.role_name = role_name;
     }
 
-    public Account(int id, String user_name, String email, String phone, String is_active, String full_name, String address, String role_name) {
+    public Account(int id, String user_name, String email, String phone, boolean is_active, String full_name, String address, String role_name) {
         this.id = id;
         this.user_name = user_name;
         this.email = email;
@@ -85,7 +85,7 @@ public class Account {
         return image;
     }
 
-    public String isIs_active() {
+    public boolean getIs_active() {
         return is_active;
     }
 
@@ -125,7 +125,7 @@ public class Account {
         this.image = image;
     }
 
-    public void setIs_active(String is_active) {
+    public void setIs_active(boolean is_active) {
         this.is_active = is_active;
     }
 

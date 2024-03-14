@@ -34,10 +34,11 @@ public class AccountDAO extends DBContext {
 //                String address = rs.getString(9);
 //                String role_name = rs.getString(12);
                 Account a;
-                a = new Account(rs.getInt(1), rs.getString(2),rs.getString(4), rs.getString(5), rs.getString(6), rs.getString(7), rs.getString(8), rs.getString(12));
+                a = new Account(rs.getInt(1), rs.getString(2),rs.getString(4), rs.getString(5), rs.getBoolean(7), rs.getString(8), rs.getString(9), rs.getString(12));
                 list.add(a);
             }   
             System.out.println(list.size());
+            return list;
         } catch (Exception e) {
             System.out.println("getListAccount():  " + e.getMessage());
         }

@@ -68,154 +68,7 @@
                 <div class="navbar-right">
                     <ul class="nav navbar-nav">
                         <!-- Messages: style can be found in dropdown.less-->
-                        <li class="dropdown messages-menu">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="fa fa-envelope"></i>
-                                <span class="label label-success">4</span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li class="header">You have 4 messages</li>
-                                <li>
-                                    <!-- inner menu: contains the actual data -->
-                                    <ul class="menu">
-                                        <li><!-- start message -->
-                                            <a href="#">
-                                                <div class="pull-left">
-                                                    <img src="img/26115.jpg" class="img-circle" alt="User Image"/>
-                                                </div>
-                                                <h4>
-                                                    Support Team
-                                                </h4>
-                                                <p>Why not buy a new awesome theme?</p>
-                                                <small class="pull-right"><i class="fa fa-clock-o"></i> 5 mins</small>
-                                            </a>
-                                        </li><!-- end message -->
-                                        <li>
-                                            <a href="#">
-                                                <div class="pull-left">
-                                                    <img src="img/26115.jpg" class="img-circle" alt="user image"/>
-                                                </div>
-                                                <h4>
-                                                    Director Design Team
-
-                                                </h4>
-                                                <p>Why not buy a new awesome theme?</p>
-                                                <small class="pull-right"><i class="fa fa-clock-o"></i> 2 hours</small>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <div class="pull-left">
-                                                    <img src="img/avatar.png" class="img-circle" alt="user image"/>
-                                                </div>
-                                                <h4>
-                                                    Developers
-
-                                                </h4>
-                                                <p>Why not buy a new awesome theme?</p>
-                                                <small class="pull-right"><i class="fa fa-clock-o"></i> Today</small>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <div class="pull-left">
-                                                    <img src="img/26115.jpg" class="img-circle" alt="user image"/>
-                                                </div>
-                                                <h4>
-                                                    Sales Department
-
-                                                </h4>
-                                                <p>Why not buy a new awesome theme?</p>
-                                                <small class="pull-right"><i class="fa fa-clock-o"></i> Yesterday</small>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <div class="pull-left">
-                                                    <img src="img/avatar.png" class="img-circle" alt="user image"/>
-                                                </div>
-                                                <h4>
-                                                    Reviewers
-
-                                                </h4>
-                                                <p>Why not buy a new awesome theme?</p>
-                                                <small class="pull-right"><i class="fa fa-clock-o"></i> 2 days</small>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="footer"><a href="#">See All Messages</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown tasks-menu">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="fa fa-tasks"></i>
-                                <span class="label label-danger">9</span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li class="header">You have 9 tasks</li>
-                                <li>
-                                    <!-- inner menu: contains the actual data -->
-                                    <ul class="menu">
-                                        <li><!-- Task item -->
-                                            <a href="#">
-                                                <h3>
-                                                    Design some buttons
-                                                    <small class="pull-right">20%</small>
-                                                </h3>
-                                                <div class="progress progress-striped xs">
-                                                    <div class="progress-bar progress-bar-success" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                                        <span class="sr-only">20% Complete</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li><!-- end task item -->
-                                        <li><!-- Task item -->
-                                            <a href="#">
-                                                <h3>
-                                                    Create a nice theme
-                                                    <small class="pull-right">40%</small>
-                                                </h3>
-                                                <div class="progress progress-striped xs">
-                                                    <div class="progress-bar progress-bar-danger" style="width: 40%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                                        <span class="sr-only">40% Complete</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li><!-- end task item -->
-                                        <li><!-- Task item -->
-                                            <a href="#">
-                                                <h3>
-                                                    Some task I need to do
-                                                    <small class="pull-right">60%</small>
-                                                </h3>
-                                                <div class="progress progress-striped xs">
-                                                    <div class="progress-bar progress-bar-info" style="width: 60%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                                        <span class="sr-only">60% Complete</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li><!-- end task item -->
-                                        <li><!-- Task item -->
-                                            <a href="#">
-                                                <h3>
-                                                    Make beautiful transitions
-                                                    <small class="pull-right">80%</small>
-                                                </h3>
-                                                <div class="progress progress-striped xs">
-                                                    <div class="progress-bar progress-bar-warning" style="width: 80%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                                        <span class="sr-only">80% Complete</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </li><!-- end task item -->
-                                    </ul>
-                                </li>
-                                <li class="footer">
-                                    <a href="#">View all tasks</a>
-                                </li>
-                            </ul>
-                        </li>
+                        
                         <!-- User Account: style can be found in dropdown.less -->
                         <li class="dropdown user user-menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -291,27 +144,17 @@
                     <!-- sidebar menu: : style can be found in sidebar.less -->
                     <ul class="sidebar-menu">
                         <li class="active">
-                            <a href="index.html">
-                                <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                            <a href="http://localhost:9999/SWD392_Gr3/Admin/ViewListAccountServlet">
+                                <i class="fa fa-dashboard"></i> <span>List Account</span>
                             </a>
                         </li>
                         <li>
                             <a href="general.html">
-                                <i class="fa fa-gavel"></i> <span>General</span>
+                                <i class="fa fa-gavel"></i> <span>Create new product</span>
                             </a>
                         </li>
 
-                        <li>
-                            <a href="basic_form.html">
-                                <i class="fa fa-globe"></i> <span>Basic Elements</span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="simple.html">
-                                <i class="fa fa-glass"></i> <span>Simple tables</span>
-                            </a>
-                        </li>
+                       
 
                     </ul>
                 </section>
@@ -337,7 +180,7 @@
                                     <table class="table table-hover">
                                         <thead>
                                             <tr>
-                                                <th>STT</th>
+                                                <th>ID</th>
                                                 <th>Full name</th>
                                                 <th>User Name</th>
                                                 <th>Phone</th> 
@@ -352,14 +195,14 @@
                                         <tbody>
                                             <c:forEach var="item" items="${list}">
                                             <tr>
-                                                <td>1</td>
+                                                <td>${item.getId()}</td>
                                                 <td>${item.getFull_name()}</td>
                                                 <td>${item.getUser_name()}</td>
                                                 <td>${item.getPhone()}</td>
                                                 <td>${item.getEmail()}</td>
                                                 <td>${item.getAddress()}</td>
                                                 <td><span class="label label-danger">${item.getRole_name()}</span></td>
-                                                <td><span class="badge badge-success">Active</span></td>
+                                                <td><span class="badge badge-success">${item.getIs_active()}</span></td>
                                                 <td>
                                                     <button class="btn btn-default btn-xs"><i class="fa fa-check"></i></button>
                                                     <button class="btn btn-default btn-xs"><i class="fa fa-pencil"></i></button>
@@ -377,56 +220,10 @@
 
 
                     </div>
-                    <div class="row">
-                        <div class="col-md-5">
-                            <div class="panel">
-                                <header class="panel-heading">
-                                    Teammates
-                                </header>
-
-                                <ul class="list-group teammates">
-                                    <li class="list-group-item">
-                                        <a href=""><img src="img/26115.jpg" width="50" height="50"></a>
-                                        <span class="pull-right label label-danger inline m-t-15">Admin</span>
-                                        <a href="">Damon Parker</a>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <a href=""><img src="img/26115.jpg"  width="50" height="50"></a>
-                                        <span class="pull-right label label-info inline m-t-15">Member</span>
-                                        <a href="">Joe Waston</a>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <a href=""><img src="img/26115.jpg"  width="50" height="50"></a>
-                                        <span class="pull-right label label-warning inline m-t-15">Editor</span>
-                                        <a href="">Jannie Dvis</a>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <a href=""><img src="img/26115.jpg"  width="50" height="50"></a>
-                                        <span class="pull-right label label-warning inline m-t-15">Editor</span>
-                                        <a href="">Emma Welson</a>
-                                    </li>
-                                    <li class="list-group-item">
-                                        <a href=""><img src="img/26115.jpg"  width="50" height="50"></a>
-                                        <span class="pull-right label label-success inline m-t-15">Subscriber</span>
-                                        <a href="">Emma Welson</a>
-                                    </li>
-                                </ul>
-                                <div class="panel-footer bg-white">
-                                    <!-- <span class="pull-right badge badge-info">32</span> -->
-                                    <button class="btn btn-primary btn-addon btn-sm">
-                                        <i class="fa fa-plus"></i>
-                                        Add Teammate
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+                  
                     <!-- row end -->
                 </section><!-- /.content -->
-                <div class="footer-main">
-                    Copyright &copy Director, 2014
-                </div>
+                
             </aside><!-- /.right-side -->
 
         </div><!-- ./wrapper -->
