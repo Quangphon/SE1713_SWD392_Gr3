@@ -54,6 +54,7 @@ public class ShoppingCartDTO {
     }
     
     public int getQuantityByProduct(Product product) {
+        if(items.get(product) == null) return 0;
         return items.get(product);
     }
     

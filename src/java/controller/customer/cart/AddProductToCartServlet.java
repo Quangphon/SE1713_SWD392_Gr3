@@ -86,7 +86,7 @@ public class AddProductToCartServlet extends HttpServlet {
         Product product = productDAO.getProductById(productId);
         
         //Compare quantity of product in store vs quantity
-        if(product.getQuantity() < quantity){
+        if(product.getQuantity() < quantity + cart.getQuantityByProduct(product)){
             String destinationURL = "/SWD392_Gr3/ViewCartServlet?message=The quantity exceeds the number of products in the store"; // Specify the URL of the destination servlet
             response.sendRedirect(destinationURL);
             return;
@@ -95,6 +95,7 @@ public class AddProductToCartServlet extends HttpServlet {
         cart.addItem(product, quantity);
         
         session.setAttribute("cart", cart);
+        response.sendRedirect("/SWD392_Gr3");
     }
 
     /** 

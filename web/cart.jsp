@@ -130,7 +130,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="shopping__cart__table">
-                        <c:if test="${tableProduct.size() <= 0}">
+                        <c:if test="${tableProduct.size() <= 0 || tableProduct == null}">
                             <h3>Please Add Item To Cart</h1></br>
                             <div class="shoping__cart__btns">
                                 <a href="home.jsp" class="primary-btn cart-btn">CONTINUE SHOPPING</a>
